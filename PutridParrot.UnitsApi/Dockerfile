@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
-COPY ["PutridParrot.MyUnitConversionApi/PutridParrot.MyUnitConversionApi.csproj", "PutridParrot.MyUnitConversionApi/"]
-RUN dotnet restore "PutridParrot.MyUnitConversionApi/PutridParrot.MyUnitConversionApi.csproj"
+COPY ["PutridParrot.UnitsApi/PutridParrot.UnitsApi.csproj", "PutridParrot.UnitsApi/"]
+RUN dotnet restore "PutridParrot.UnitsApi/PutridParrot.UnitsApi.csproj"
 COPY . .
-WORKDIR "/src/PutridParrot.MyUnitConversionApi"
-RUN dotnet build "PutridParrot.MyUnitConversionApi.csproj" -c Release -o /app/build
+WORKDIR "/src/PutridParrot.UnitsApi"
+RUN dotnet build "PutridParrot.UnitsApi.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "PutridParrot.MyUnitConversionApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "PutridParrot.UnitsApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "PutridParrot.MyUnitConversionApi.dll"]
+ENTRYPOINT ["dotnet", "PutridParrot.UnitsApi.dll"]
