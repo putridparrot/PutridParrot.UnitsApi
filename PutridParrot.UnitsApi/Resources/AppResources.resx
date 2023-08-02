@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Acres" xml:space="preserve">
+    <value>Acre</value>
+  </data>
+  <data name="Ampereturns" xml:space="preserve">
+    <value>Ampere-turn</value>
+  </data>
+  <data name="Angle" xml:space="preserve">
+    <value>Angle</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>My Unit Conversion</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Atmospheres" xml:space="preserve">
+    <value>Atmosphere</value>
+  </data>
+  <data name="Bars" xml:space="preserve">
+    <value>Bar</value>
+  </data>
+  <data name="Bits" xml:space="preserve">
+    <value>Bits</value>
+  </data>
+  <data name="BitsPerSecond" xml:space="preserve">
+    <value>Bits per second</value>
+  </data>
+  <data name="Btu" xml:space="preserve">
+    <value>British Thermal Units</value>
+  </data>
+  <data name="Calories" xml:space="preserve">
+    <value>Gram calorie</value>
+  </data>
+  <data name="Carats" xml:space="preserve">
+    <value>Carats</value>
+  </data>
+  <data name="Celsius" xml:space="preserve">
+    <value>Celsius</value>
+  </data>
+  <data name="Centimetres" xml:space="preserve">
+    <value>Centimetres</value>
+  </data>
+  <data name="Centuries" xml:space="preserve">
+    <value>Centuries</value>
+  </data>
+  <data name="Convert" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="ConverterList" xml:space="preserve">
+    <value>List of converters</value>
+  </data>
+  <data name="CubicFeet" xml:space="preserve">
+    <value>Cubic Feet</value>
+  </data>
+  <data name="CubicInches" xml:space="preserve">
+    <value>Cubic Inches</value>
+  </data>
+  <data name="CubicMetres" xml:space="preserve">
+    <value>Cubic Metres</value>
+  </data>
+  <data name="DataStorage" xml:space="preserve">
+    <value>Data Storage</value>
+  </data>
+  <data name="DataTransferRate" xml:space="preserve">
+    <value>Data Transfer Rate</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Decades" xml:space="preserve">
+    <value>Decades</value>
+  </data>
+  <data name="Degrees" xml:space="preserve">
+    <value>Degrees</value>
+  </data>
+  <data name="Dynes" xml:space="preserve">
+    <value>Dynes</value>
+  </data>
+  <data name="Electronvolts" xml:space="preserve">
+    <value>Electronvolts</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="Fahrenheit" xml:space="preserve">
+    <value>Fahrenheit</value>
+  </data>
+  <data name="Feet" xml:space="preserve">
+    <value>Feet</value>
+  </data>
+  <data name="FeetPerSecond" xml:space="preserve">
+    <value>Feet per second</value>
+  </data>
+  <data name="FluidOunces" xml:space="preserve">
+    <value>Fluid Ounces</value>
+  </data>
+  <data name="FootPounds" xml:space="preserve">
+    <value>Foot Pounds</value>
+  </data>
+  <data name="Force" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="Frequency" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="FuelEconomy" xml:space="preserve">
+    <value>Fuel Economy</value>
+  </data>
+  <data name="Gallons" xml:space="preserve">
+    <value>Gallons</value>
+  </data>
+  <data name="Gigabits" xml:space="preserve">
+    <value>Gigabits</value>
+  </data>
+  <data name="GigaBitsPerSecond" xml:space="preserve">
+    <value>Gigabits per second</value>
+  </data>
+  <data name="Gigabytes" xml:space="preserve">
+    <value>Gigabytes</value>
+  </data>
+  <data name="GigaBytesPerSecond" xml:space="preserve">
+    <value>Gigabytes per second</value>
+  </data>
+  <data name="Gigahertz" xml:space="preserve">
+    <value>Gigahertz</value>
+  </data>
+  <data name="Gilberts" xml:space="preserve">
+    <value>Gilbert</value>
+  </data>
+  <data name="Gradians" xml:space="preserve">
+    <value>Gradians</value>
+  </data>
+  <data name="Grams" xml:space="preserve">
+    <value>Grams</value>
+  </data>
+  <data name="Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="Hectares" xml:space="preserve">
+    <value>Hectare</value>
+  </data>
+  <data name="Hertz" xml:space="preserve">
+    <value>Hertz</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="Inches" xml:space="preserve">
+    <value>Inches</value>
+  </data>
+  <data name="Joules" xml:space="preserve">
+    <value>Joules</value>
+  </data>
+  <data name="Kelvin" xml:space="preserve">
+    <value>Kelvin</value>
+  </data>
+  <data name="Kibibits" xml:space="preserve">
+    <value>Kibibits</value>
+  </data>
+  <data name="KibibitsPerSecond" xml:space="preserve">
+    <value>Kibibits per second</value>
+  </data>
+  <data name="Kilobits" xml:space="preserve">
+    <value>Kilobits</value>
+  </data>
+  <data name="KiloBitsPerSecond" xml:space="preserve">
+    <value>Kilobits per second</value>
+  </data>
+  <data name="Kilobytes" xml:space="preserve">
+    <value>Kilobytes</value>
+  </data>
+  <data name="KiloBytesPerSecond" xml:space="preserve">
+    <value>Kilobytes per second</value>
+  </data>
+  <data name="Kilocalories" xml:space="preserve">
+    <value>Kilocalories</value>
+  </data>
+  <data name="Kilogramforce" xml:space="preserve">
+    <value>Kilogramforce</value>
+  </data>
+  <data name="Kilograms" xml:space="preserve">
+    <value>Kilograms</value>
+  </data>
+  <data name="Kilohertz" xml:space="preserve">
+    <value>Kilohertz</value>
+  </data>
+  <data name="Kilojoules" xml:space="preserve">
+    <value>Kilojoules</value>
+  </data>
+  <data name="Kilolitres" xml:space="preserve">
+    <value>Kilolitres</value>
+  </data>
+  <data name="KilometrePerLitre" xml:space="preserve">
+    <value>Kilometre per litre</value>
+  </data>
+  <data name="Kilometres" xml:space="preserve">
+    <value>Kilometres</value>
+  </data>
+  <data name="KilometresPerHour" xml:space="preserve">
+    <value>Kilometres per hour</value>
+  </data>
+  <data name="KilowattHours" xml:space="preserve">
+    <value>Kilowatt Hours</value>
+  </data>
+  <data name="Knots" xml:space="preserve">
+    <value>Knots</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length / Distance</value>
+  </data>
+  <data name="Litres" xml:space="preserve">
+    <value>Litres</value>
+  </data>
+  <data name="LitresPer100Kilometres" xml:space="preserve">
+    <value>Litres per 100 Kilometres</value>
+  </data>
+  <data name="LumenHour" xml:space="preserve">
+    <value>Lumen Hour</value>
+  </data>
+  <data name="LumenMinute" xml:space="preserve">
+    <value>Lumen Minute</value>
+  </data>
+  <data name="LumenSecond" xml:space="preserve">
+    <value>Lumen Second</value>
+  </data>
+  <data name="LuminousEnergy" xml:space="preserve">
+    <value>Luminous Energy</value>
+  </data>
+  <data name="MagnetomotiveForce" xml:space="preserve">
+    <value>Magnetomotive Force</value>
+  </data>
+  <data name="Mass" xml:space="preserve">
+    <value>Mass / Weight</value>
+  </data>
+  <data name="Mebibits" xml:space="preserve">
+    <value>Mebibits</value>
+  </data>
+  <data name="MebibitsPerSecond" xml:space="preserve">
+    <value>Mebibit per second</value>
+  </data>
+  <data name="MechanicalHorsePower" xml:space="preserve">
+    <value>Mechanical Horse Power</value>
+  </data>
+  <data name="Megabits" xml:space="preserve">
+    <value>Megabits</value>
+  </data>
+  <data name="MegaBitsPerSecond" xml:space="preserve">
+    <value>Megabits per second</value>
+  </data>
+  <data name="Megabytes" xml:space="preserve">
+    <value>Megabytes</value>
+  </data>
+  <data name="MegaBytesPerSecond" xml:space="preserve">
+    <value>Megabytes per second</value>
+  </data>
+  <data name="Megahertz" xml:space="preserve">
+    <value>Megahertz</value>
+  </data>
+  <data name="Metres" xml:space="preserve">
+    <value>Metres</value>
+  </data>
+  <data name="MetresPerSecond" xml:space="preserve">
+    <value>Metres per second</value>
+  </data>
+  <data name="MetricHorsePower" xml:space="preserve">
+    <value>Metric Horse Power</value>
+  </data>
+  <data name="Microseconds" xml:space="preserve">
+    <value>Microseconds</value>
+  </data>
+  <data name="Miles" xml:space="preserve">
+    <value>Miles</value>
+  </data>
+  <data name="MilesPerGallon" xml:space="preserve">
+    <value>Miles per gallon</value>
+  </data>
+  <data name="MilesPerHour" xml:space="preserve">
+    <value>Miles per hour</value>
+  </data>
+  <data name="Milligrams" xml:space="preserve">
+    <value>Milligrams</value>
+  </data>
+  <data name="Millilitres" xml:space="preserve">
+    <value>Millilitres</value>
+  </data>
+  <data name="Millimetres" xml:space="preserve">
+    <value>Millimetres</value>
+  </data>
+  <data name="Milliradians" xml:space="preserve">
+    <value>Milliradians</value>
+  </data>
+  <data name="Milliseconds" xml:space="preserve">
+    <value>Milliseconds</value>
+  </data>
+  <data name="MinuteOfArc" xml:space="preserve">
+    <value>Minute of arc</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="Nanoseconds" xml:space="preserve">
+    <value>Nanoseconds</value>
+  </data>
+  <data name="NauticalMiles" xml:space="preserve">
+    <value>Nautical Miles</value>
+  </data>
+  <data name="Newtons" xml:space="preserve">
+    <value>Newtons</value>
+  </data>
+  <data name="OilBarrels" xml:space="preserve">
+    <value>Oil Barrels</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Ounces" xml:space="preserve">
+    <value>Ounces</value>
+  </data>
+  <data name="Pascals" xml:space="preserve">
+    <value>Pascal</value>
+  </data>
+  <data name="Pints" xml:space="preserve">
+    <value>Pints</value>
+  </data>
+  <data name="Poundals" xml:space="preserve">
+    <value>Poundals</value>
+  </data>
+  <data name="Pounds" xml:space="preserve">
+    <value>Pounds</value>
+  </data>
+  <data name="Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="Pressure" xml:space="preserve">
+    <value>Pressure</value>
+  </data>
+  <data name="Psi" xml:space="preserve">
+    <value>Psi</value>
+  </data>
+  <data name="Quarts" xml:space="preserve">
+    <value>Quarts</value>
+  </data>
+  <data name="Radians" xml:space="preserve">
+    <value>Radians</value>
+  </data>
+  <data name="Rankine" xml:space="preserve">
+    <value>Rankine</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="SecondsOfArc" xml:space="preserve">
+    <value>Seconds of arc</value>
+  </data>
+  <data name="SelectUnit" xml:space="preserve">
+    <value>Select Unit</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="SquareFeet" xml:space="preserve">
+    <value>Square Feet</value>
+  </data>
+  <data name="SquareInches" xml:space="preserve">
+    <value>Square Inch</value>
+  </data>
+  <data name="SquareKilometres" xml:space="preserve">
+    <value>Square Kilometre</value>
+  </data>
+  <data name="SquareMetres" xml:space="preserve">
+    <value>Square Metre</value>
+  </data>
+  <data name="SquareMiles" xml:space="preserve">
+    <value>Square Mile</value>
+  </data>
+  <data name="SquareYards" xml:space="preserve">
+    <value>Square Yard</value>
+  </data>
+  <data name="Stones" xml:space="preserve">
+    <value>Stones</value>
+  </data>
+  <data name="Tablespoons" xml:space="preserve">
+    <value>Tablespoons</value>
+  </data>
+  <data name="Talbot" xml:space="preserve">
+    <value>Talbot</value>
+  </data>
+  <data name="Teaspoons" xml:space="preserve">
+    <value>Teaspoons</value>
+  </data>
+  <data name="Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="Terabits" xml:space="preserve">
+    <value>Terabits</value>
+  </data>
+  <data name="TeraBitsPerSecond" xml:space="preserve">
+    <value>Terabits per second</value>
+  </data>
+  <data name="Terabytes" xml:space="preserve">
+    <value>Terabytes</value>
+  </data>
+  <data name="TeraBytesPerSecond" xml:space="preserve">
+    <value>Terabytes per second</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Tonnes" xml:space="preserve">
+    <value>Tonnes</value>
+  </data>
+  <data name="Torrs" xml:space="preserve">
+    <value>Torr</value>
+  </data>
+  <data name="USCups" xml:space="preserve">
+    <value>US Cups</value>
+  </data>
+  <data name="USFluidOunces" xml:space="preserve">
+    <value>US Fluid Ounces</value>
+  </data>
+  <data name="USGallons" xml:space="preserve">
+    <value>US Gallons</value>
+  </data>
+  <data name="USMilesPerGallon" xml:space="preserve">
+    <value>US Miles per gallon</value>
+  </data>
+  <data name="USPints" xml:space="preserve">
+    <value>US Pints</value>
+  </data>
+  <data name="USQuarts" xml:space="preserve">
+    <value>US Quarts</value>
+  </data>
+  <data name="USTablespoons" xml:space="preserve">
+    <value>US Tablespoons</value>
+  </data>
+  <data name="USTeaspoons" xml:space="preserve">
+    <value>US Teaspoons</value>
+  </data>
+  <data name="USTherms" xml:space="preserve">
+    <value>US therm</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="WattHours" xml:space="preserve">
+    <value>Watt Hours</value>
+  </data>
+  <data name="Weeks" xml:space="preserve">
+    <value>Weeks</value>
+  </data>
+  <data name="Yards" xml:space="preserve">
+    <value>Yards</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>Years</value>
+  </data>
+</root>
