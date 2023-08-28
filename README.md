@@ -1,8 +1,9 @@
-# PutridParrot.UnitApi
+# PutridParrot.UnitsApi
 
-az login
+This is a WEB API version of the Nuget Package PutridParrot.Units
 
-az acr build -t unitsapi:ver01 -r registryname .
+## Reminder on how to set up on Azure via the Azure client
 
-	
-az acr repository list --name registryname
+* az login
+* az acr build -t unitsapi:ver01 -r registryname .
+* az acr repository list --name registryname
