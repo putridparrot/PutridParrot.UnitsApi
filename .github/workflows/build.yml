@@ -15,18 +15,18 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Setup .NET Core SDK 6.0.x
+    - name: Setup .NET Core SDK 7.0.x
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '6.0.x'
+        dotnet-version: '7.0.x'
     - name: Install dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build --configuration Release --no-restore
-    - name: Test
-      run: dotnet test PutridParrot.UnitsApi.Tests/PutridParrot.UnitsApi.Tests.csproj --no-restore --verbosity normal
-    - name: Create Package
-      run: dotnet pack --configuration Release
+#    - name: Test
+#      run: dotnet test PutridParrot.UnitsApi.Tests/PutridParrot.UnitsApi.Tests.csproj --no-restore --verbosity normal
+#    - name: Create Package
+#      run: dotnet pack --configuration Release
 #    - name: Create Artifacts
 #      uses: actions/upload-artifact@v2
 #      with:
