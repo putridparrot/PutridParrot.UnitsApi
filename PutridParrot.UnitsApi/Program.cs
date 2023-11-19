@@ -11,6 +11,10 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSingleton<ConverterRepository>();
 
+// for testing resources
+//var culture = new CultureInfo("en-US");
+//AppResources.Culture = culture;
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
