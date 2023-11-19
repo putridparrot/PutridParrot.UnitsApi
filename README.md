@@ -10,6 +10,8 @@ This is a WEB API version of the Nuget Package PutridParrot.Units
 
 ## Reminder on how to set up on Azure via the Azure client
 
+Don't forget to change the registryname below to your registry and the version should be updated as well
+
 * az login
 * az acr build -t unitsapi:ver01 -r registryname .
 * az acr repository list --name registryname
